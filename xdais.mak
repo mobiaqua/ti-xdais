@@ -118,7 +118,9 @@ XDCARGS= \
     ti.targets.elf.C64T=\"$(ti.targets.elf.C64T)\" \
     ti.targets.elf.C66=\"$(ti.targets.elf.C66)\" \
     ti.targets.elf.C674=\"$(ti.targets.elf.C674)\" \
-    gnu.targets.arm.GCArmv5T=\"$(gnu.targets.arm.GCArmv5T)\"
+    gnu.targets.arm.GCArmv5T=\"$(gnu.targets.arm.GCArmv5T)\" \
+    gnu.targets.arm.M3=\"$(gnu.targets.arm.M3)\" \
+    gnu.targets.arm.M4=\"$(gnu.targets.arm.M4)\"
 
 
 # Set XDCPATH to contain necessary repositories.
